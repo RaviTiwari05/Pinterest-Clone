@@ -1,0 +1,18 @@
+  <% include ./partials/header.ejs %>
+  <div class="w-full h-screen bg-center bg-cover bg-[url(https://images.unsplash.com/photo-1567095761054-7a02e69e5c43?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D)] flex items-center justify-center">
+    <div class="w-[25vw] bg-white px-20 py-10 rounded-[30px]">
+      <h1 class="text-3xl text-center font-semibold text-zinc-700 tracking-tighter capitalize leading-none">Welcome to Pinterest  </h1>
+      <form action="">
+        <input class="border-2 rounded-md mt-2 block w-full px-3 py-2" type="text" name="username" placeholder="username">
+        <input class="border-2 rounded-md mt-2 block w-full px-3 py-2" type="password" name="password" placeholder="password">
+        <a class="mt-2 font-semibold text-zinc-500 inline-block" href="#">Forgot password ?</a>
+        <input class="border-2 rounded-full mt-2 block w-full px-3 py-2 bg-red-600 text-white rounded-full" type="submit" value="Login">
+        <p class="text-sx font-semibold text-zinc-700 mt-7 w-3/4 mx-auto text-center">
+          By continuing, you agree to Pinterest's Terms of Service; Opens a new tab and acknowledge that you've read our Privacy Policy Notice at collection
+
+        </p>
+      </form>
+      <a href="/register" class="inline-block mt-7 text-sm font-semibold text-zinc-700 text-center w-full"> Don't have an account ?</a>
+    </div>
+  </div>
+  <% include ./partials/footer.ejs %>
